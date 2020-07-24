@@ -2,7 +2,7 @@
 
 json数据创建表格
 
-![avatar](./table.png)
+![avatar](table.png)
 
 
 ### 下载该组件 
