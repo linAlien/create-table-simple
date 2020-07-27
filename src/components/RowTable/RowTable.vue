@@ -16,6 +16,7 @@
 
   </div>
 </template>
+
 <script>
 
 import TableRowHead from "./TableRowHead.vue";
