@@ -44,6 +44,12 @@ export default {
                     height: '80px',
                     width: '150px',
                     name: '完全受限1分 非常受限2分 轻度受限3分 未受损害4分'
+                },
+                {
+                    id: '10',
+                    height: '80px',
+                    width: '150px',
+                    name: '完全受限1分 非常受限2分 轻度受限3分 未受损害4分'
                 }
             ]
           },
