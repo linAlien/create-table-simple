@@ -618,6 +618,7 @@ export default {
     background: transparent;
   }
 }
+
 </style>
 <style lang="scss">
 .editTable__block {
@@ -627,7 +628,7 @@ export default {
   th,
   td {
     // box-sizing: border-box;
-    border: 1px solid #dcdfe6;
+    border: 1px solid #d3d3d3;
     font-size: 12px;
     color: #6a6a6a;
   }

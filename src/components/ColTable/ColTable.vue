@@ -532,7 +532,7 @@ export default {
   text-align: center;
   line-height: 40px;
   font-size: 14px;
-  border: 1px dashed #dcdfe6;
+  border: 1px dashed #d3d3d3;
   color: #303133;
   margin-top: 10px;
   cursor: pointer;
@@ -661,6 +661,14 @@ export default {
 .editTableWrapper .el-form-item--small .el-form-item__error {
   z-index: 100;
 }
+
+th,
+td {
+  // box-sizing: border-box;
+  border: 1px solid #d3d3d3;
+  font-size: 12px;
+  color: #6a6a6a;
+}
 </style>
 <style lang="scss">
 .editTable__block {
@@ -670,7 +678,7 @@ export default {
   th,
   td {
     box-sizing: border-box;
-    border: 1px solid #dcdfe6;
+    border: 1px solid #d3d3d3;
     font-size: 12px;
     color: #6a6a6a;
   }

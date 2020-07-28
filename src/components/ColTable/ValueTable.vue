@@ -1,27 +1,27 @@
 <template>
   <div class="value-table">
     <!-- 多表头表体 -->
-    <table class="editTable__block" v-if="edit.rowData.length > 0 && edit.colData.length > 0">
+    <!-- <table class="editTable__block" v-if="edit.rowData.length > 0 && edit.colData.length > 0">
       <tr v-for="(x, xindex) in edit.lastDataCol" :key="xindex">
         <td v-for="(y, yindex) in edit.lastDataRow" :key="yindex + '_' + xindex" :style="tdStyle">
           {{tableData[ y.id+ '__' + x.id] || ""}}
         </td>
       </tr>
-    </table> 
+    </table>  -->
     <!-- 横向表头表体 -->
-    <table class="editTable__block" v-if="edit.rowData.length > 0 && edit.colData.length === 0">
+    <!-- <table class="editTable__block" v-if="edit.rowData.length > 0 && edit.colData.length === 0">
       <tr v-for="(x, xindex) in tableData" :key="xindex">
         <td v-for="(y, yindex) in edit.lastDataRow" :key="yindex + '_' + xindex" :style="tdStyle">
           {{x[y.id] || ""}}
         </td>
       </tr>
-    </table> 
+    </table>  -->
     <!-- 纵向表头表体 -->
+    <!-- width: (edit.headColWidth + 'px'), -->
     <table class="editTable__block" v-if="edit.rowData.length === 0 && edit.colData.length > 0">
       <tr v-for="(x, xindex) in edit.lastDataCol" :key="xindex">
         <td v-for="(y, yindex) in tableData" :key="yindex + '_' + xindex" 
         :style="{
-        width: (edit.headColWidth + 'px'),
         height: (x.height ? x.height:edit.tableTdHeight + 'px'),
         textAlign: 'center'
       }">
